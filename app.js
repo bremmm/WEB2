@@ -17,13 +17,13 @@ const session = require('express-session')
             saveUninitialized: true
         }))
         //o flash tem que ser configurado abaixo da session
-        app.use(flash())
-    //Configurando o Middleware
-        app.use((req, res, next) => {
-            res.locals.success_msg = req.flash("success_msg")
-            res.locals.error_msg = req.flash("error_msg")
-            next()
-        })
+    //     app.use(flash())
+    // //Configurando o Middleware
+    //     app.use((req, res, next) => {
+    //         res.locals.success_msg = req.flash("success_msg")
+    //         res.locals.error_msg = req.flash("error_msg")
+    //         next()
+    //     })
     //BodyParser
         app.use(bodyParser.urlencoded({extended:true}))
         app.use(bodyParser.json())
