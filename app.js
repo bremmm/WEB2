@@ -32,7 +32,7 @@ const session = require('express-session')
         app.set('view engine', 'handlebars')
     //Mongoose
         mongoose.Promise = global.Promise;
-        mongoose.connect("mongodb://localhost/artiste").then(() => {
+        mongoose.connect("mongodb://localhost/web2").then(() => {
             console.log("Conectado ao mongo")
         }).catch((erro) => {
             console.log("erro ao se conectar: " + erro )
