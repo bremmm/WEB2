@@ -12,9 +12,10 @@ a.nav-link, a.navbar-brand{
     position: relative;
 }
 
+
 a.nav-link:hover, a.navbar-brand:hover{
     opacity: 45%;
-    background-color:#a393bf;
+    background-color:rgb(51, 68, 85);
     color:#12091e;
 }
 
@@ -35,7 +36,7 @@ a.nav-link:hover, a.navbar-brand:hover{
 #menuI{color:#a393bf; text-decoration:none; padding:5px 10px;}
  
 #menuI:hover{
-background:#a393bf; 
+background:rgb(51, 68, 85); 
 color:#12091e;
 }
 
