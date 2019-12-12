@@ -27,7 +27,7 @@ module.exports = {
 
             var inscrito = {
                 email: email,
-                name: nome,
+                nome: nome,
                 endereco: endereco,
                 sexo: sexo,
                 dataNasc: dataNasc,
