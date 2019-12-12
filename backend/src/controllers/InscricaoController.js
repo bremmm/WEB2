@@ -14,6 +14,23 @@ module.exports = {
         const { naturalidade } = req.body;
         const { tel } = req.body;
 
+        const fs = require('fs');
+
+        let nome1 = "ASD";
+
+        var inscrito = {
+            name: nome1
+        };
+
+        // console.log(myJSON);
+
+        fs.writeFile ( nome1 + ".json", JSON.stringify(inscrito), function(err) {
+            if (err) throw err;
+            console.log('complete');
+            }
+        );
+        
+
         let inscricao = await Inscricao.findOne({ email });
 
         if (!inscricao) {
@@ -51,16 +68,10 @@ module.exports = {
                 console.error(err)
             }
 
-            fs.writeFile(pastaInscrito + "/" + nome + ".json", JSON.stringify(inscrito), function (err) {
-                if (err) throw err;
-                console.log('complete');
-            }
-            );
-
         } else {
 
         }
 
-        return res.status(200).json(inscricao);
+        return res.satus(200).json(inscricao);
     }
 };
