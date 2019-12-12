@@ -202,9 +202,12 @@ body{
     color: #12091e;
     background-color: #a393bf;
     width: 120px;
+    height: 50px;
+    transition: .5s;
 }
 
 .btnInvest:hover{
-    color:#a393bf;
-    background-color:#12091e;
+    -moz-transform: scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform: scale(1.1);
 }
