@@ -4,7 +4,7 @@
 }
 
 a.nav-link, a.navbar-brand{
-    color: #a393bf;
+    color: #fff;
     font-size: 12px;
     opacity: 75%;
     padding: 41px;
@@ -16,7 +16,7 @@ a.nav-link, a.navbar-brand{
 a.nav-link:hover, a.navbar-brand:hover{
     opacity: 45%;
     background-color:rgb(51, 68, 85);
-    color:#12091e;
+    color:#fff;
 }
 
 
