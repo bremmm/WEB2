@@ -197,3 +197,14 @@ body{
     -webkit-transform:scale(1.1);
     transform: scale(1.1);
 }
+
+.btnInvest{
+    color: #12091e;
+    background-color: #a393bf;
+    width: 120px;
+}
+
+.btnInvest:hover{
+    color:#a393bf;
+    background-color:#12091e;
+}
