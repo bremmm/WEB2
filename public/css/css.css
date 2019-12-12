@@ -18,9 +18,6 @@ a.nav-link:hover, a.navbar-brand:hover{
     color:#12091e;
 }
 
-ul {
-    
-} 
 
 .active { display: block !important }
 
@@ -167,9 +164,6 @@ body{
     background-color: rgba(67, 35, 109, 0.4);
 }
 
-.card:hover{
-
-}
 .c1{
     position: absolute;
     top: 40%;
