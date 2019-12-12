@@ -4,9 +4,10 @@
   "description": "página  web  que  contém  informações  de  um curso de especialização. A página será utilizada para obtenção de nota na disciplina de WEB2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
-  "author": "José Otávio Bremm, Gabrieli Pereira Machado, Lucas Fernandes Trizzini",
+  "author": "José Otávio Bremm, Gabrieli Pereira Machado, Lucas Fernandes Trizzini, Felipe Pardim dos Santos",
   "license": "ISC",
   "dependencies": {
     "admin-bro": "^1.4.2",
