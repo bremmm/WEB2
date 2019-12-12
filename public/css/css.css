@@ -1,0 +1,205 @@
+#nav{
+    background-color: #12091e;
+    opacity: 98.5%;
+}
+
+a.nav-link, a.navbar-brand{
+    color: #a393bf;
+    font-size: 12px;
+    opacity: 75%;
+    padding: 41px;
+    float: right;
+    position: relative;
+}
+
+a.nav-link:hover, a.navbar-brand:hover{
+    opacity: 45%;
+    background-color:#a393bf;
+    color:#12091e;
+}
+
+ul {
+    
+} 
+
+.active { display: block !important }
+
+.menu{
+    position: absolute;
+    list-style:none; 
+    float: inline;
+    left:37%;
+    }
+.menu li{
+    position:relative; 
+    float:left; 
+}
+
+#menuI{color:#a393bf; text-decoration:none; padding:5px 10px;}
+ 
+#menuI:hover{
+background:#a393bf; 
+color:#12091e;
+}
+
+.pi{
+    text-align: justify;width: 600px;position: absolute;right: 8%;
+    top: 120%;
+}
+
+#menuI2{
+    color:#a393bf; text-decoration:none; padding:5px 10px;
+}
+
+#menuI2:hover{
+    color:#12091e;
+}
+
+.menu li  ul{
+    position:absolute; 
+    top:25px; 
+    left:0;
+    background-color:#fff; 
+    display:none;
+    } 
+
+.menu li:hover ul, .menu li.over ul
+{
+    display:block;
+}
+.menu li ul li{
+    border:1px solid #c0c0c0; 
+    width:300px;
+    }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.text{
+    color: #a393bf;
+    position: relative;
+    text-align: center;
+    top: 15%;
+}
+
+
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-300px,0,0);
+    transition: .4s;
+}
+.anime2{
+    opacity: 0;
+    transform: translate3d(0,-50px,0);
+    transition: .5s;
+}
+
+.anime3{
+    opacity: 0;
+    transform: translate3d(0,100px,0);
+    transition: .5s;
+}
+
+.anime4{
+    opacity: 0;
+    transform: translate3d(0,-100px,0);
+    transition: .6s;
+} 
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+/* Fontes:
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Sulphur Point', sans-serif;
+
+    font-family: 'Alatsi', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+ */
+
+nav#nav{
+    height: 100px;
+}
+
+.mbah1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+    color: white;
+    top: 20%;
+    position: relative;
+    font-size: 60px;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+#img-back{
+    background: url("/images/fundo_home.jpg") center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.displi{
+    padding:5px;
+}
+.displi:hover{
+    background-color:#a393bf;
+    color:#12091e;
+    cursor: pointer;
+}
+
+.card{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(67, 35, 109, 0.4);
+}
+
+.card:hover{
+
+}
+.c1{
+    position: absolute;
+    top: 40%;
+    left: 15.8%;
+}
+.c2{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+.c3{
+    position: absolute;
+    top: 40%;
+    left: 40.5%;
+}
+
+.zoom{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform: scale(1.1);
+}

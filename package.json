@@ -1,29 +1,26 @@
 {
-  "name": "web2",
+  "name": "projeto",
   "version": "1.0.0",
-  "description": "",
+  "description": "página  web  que  contém  informações  de  um curso de especialização. A página será utilizada para obtenção de nota na disciplina de WEB2",
   "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express-handlebars": "^3.1.0",
-    "express-session": "^1.17.0",
-    "express": "^4.17.1",
-    "handlebars": "^4.5.1",
-    "mongoose": "^5.7.7",
-    "nodemon": "^1.19.4"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bremmm/WEB2.git"
-  },
-  "author": "José Otávio Bremm, Gabrieli Machado, Lucas Trizzini",
+  "author": "José Otávio Bremm, Gabrieli Pereira Machado, Lucas Fernandes Trizzini",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bremmm/WEB2/issues"
-  },
-  "homepage": "https://github.com/bremmm/WEB2#readme"
+  "dependencies": {
+    "admin-bro": "^1.4.2",
+    "admin-bro-expressjs": "^0.3.0",
+    "admin-bro-mongoose": "^0.3.0",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "consign": "^0.1.6",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.5.3",
+    "mongoose": "^5.7.13",
+    "nodemon": "^2.0.1"
+  }
 }

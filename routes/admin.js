@@ -1,11 +1,7 @@
 const express = require("express")
 const router = express.Router()
-//const mongoose = require('mongoose')
+const mongoose = require('mongoose')
 
 router.get('/', (req, res) => {
-    res.render("admin/index")
-
+    res.render("index")
 })
-
-
-module.exports = router;
