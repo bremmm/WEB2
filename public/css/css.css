@@ -166,19 +166,17 @@ body{
 }
 
 .c1{
-    position: absolute;
-    top: 40%;
-    left: 15.8%;
+    position: relative;
+    left: 38.5%;
+    top:50%;
 }
 .c2{
-    position: absolute;
-    top: 40%;
-    left: 65%;
+    position: relative;
+    left: 38.5%;
 }
 .c3{
-    position: absolute;
-    top: 40%;
-    left: 40.5%;
+    position: relative;
+    left: 38.5%;
 }
 
 .zoom{
@@ -197,6 +195,11 @@ body{
     -moz-transform: scale(1.1);
     -webkit-transform:scale(1.1);
     transform: scale(1.1);
+}
+
+.carousel{
+    top: 25%;
+    position: relative;
 }
 
 .btnInvest{
