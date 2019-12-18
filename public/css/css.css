@@ -71,7 +71,7 @@ color:#12091e;
     }
 
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
   }
 
 .text{
@@ -86,7 +86,7 @@ html {
 .anime{
     opacity: 0;
     transform: translate3d(-300px,0,0);
-    transition: .4s;
+    transition: .2s;
 }
 .anime2{
     opacity: 0;
