@@ -71,7 +71,7 @@ color:#12091e;
     }
 
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
   }
 
 .text{
@@ -86,7 +86,7 @@ html {
 .anime{
     opacity: 0;
     transform: translate3d(-300px,0,0);
-    transition: .4s;
+    transition: .2s;
 }
 .anime2{
     opacity: 0;
@@ -166,18 +166,16 @@ body{
 }
 
 .c1{
-    position: absolute;
-    top: 40%;
-    left: 15.8%;
+    position: relative;
+    left: 40.5%;
+    top:50%;
 }
 .c2{
-    position: absolute;
-    top: 40%;
-    left: 65%;
+    position: relative;
+    left: 40.5%;
 }
 .c3{
-    position: absolute;
-    top: 40%;
+    position: relative;
     left: 40.5%;
 }
 
@@ -199,6 +197,11 @@ body{
     transform: scale(1.1);
 }
 
+.carousel{
+    top: 25%;
+    position: relative;
+}
+
 .btnInvest{
     color: #12091e;
     background-color: #a393bf;
@@ -212,3 +215,21 @@ body{
     -webkit-transform:scale(1.1);
     transform: scale(1.1);
 }
+
+.btnModal{
+    color: #b7a9cf;
+    background-color:rgba(67, 35, 109);
+    width: 110px;
+    height: 40px;
+}
+
+.btnModal:hover{
+    background-color:rgb(58, 31, 92);
+    color: #c5b8dd;
+}
+
+.imb{
+   background-color: #12091ee6;
+}
+
+
