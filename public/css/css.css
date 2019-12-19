@@ -167,16 +167,16 @@ body{
 
 .c1{
     position: relative;
-    left: 38.5%;
+    left: 40.5%;
     top:50%;
 }
 .c2{
     position: relative;
-    left: 38.5%;
+    left: 40.5%;
 }
 .c3{
     position: relative;
-    left: 38.5%;
+    left: 40.5%;
 }
 
 .zoom{
@@ -215,3 +215,21 @@ body{
     -webkit-transform:scale(1.1);
     transform: scale(1.1);
 }
+
+.btnModal{
+    color: #b7a9cf;
+    background-color:rgba(67, 35, 109);
+    width: 110px;
+    height: 40px;
+}
+
+.btnModal:hover{
+    background-color:rgb(58, 31, 92);
+    color: #c5b8dd;
+}
+
+.imb{
+   background-color: #12091ee6;
+}
+
+

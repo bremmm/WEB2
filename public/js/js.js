@@ -138,17 +138,17 @@ $(function(){
     });
 });
 
-// $(function(){
+$(function(){
 
-//     $("div.i").css("display", "none");
-//     $("div#i1").addClass("active");
+    $("div.b1").css("display", "none");
+    $("div#f1").addClass("active");
 
-//     $("a#menuI").on("click", function( e ){         
-//       e.preventDefault();
+    $("a#menuM").on("click", function( e ){         
+      e.preventDefault();
         
-//     	$("div").removeClass("active");
-//         var id = $(this).attr("href"); 
-//         $("#"+id+"").addClass("active");
+    	$("div").removeClass("active");
+        var id = $(this).attr("href"); 
+        $("#"+id+"").addClass("active");
         
-//     });
-// });
+    });
+});
